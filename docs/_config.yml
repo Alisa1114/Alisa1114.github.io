@@ -18,19 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Alisa Chen
-email: kafuchino0410@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Study in computer science now.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: It's freeze now, haha
-github_username:  Alisa1114
+title: Alisa Chen's Website
+tagline: Study in computer science now
+author.name: Alisa Chen
 
 # Build settings
-theme: minima
+remote_theme: zivong/jekyll-theme-hydure
 plugins:
-  - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
