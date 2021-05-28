@@ -16,6 +16,5 @@ A newbie in DL since her independent study
 project of computer sciene.  
 Like coding, Touhou Project, and music of 
 Japanese ACG.  
-My Medium: [alisachen1114.medium.com]
-(https:/
-/alisachen1114.medium.com)
+My Medium: [Medium]
+(https://alisachen1114.medium.com)
