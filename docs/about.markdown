@@ -3,7 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
-<a href="https://i.imgur.com/y1oVZPe.png"><img src="https://i.imgur.com/y1oVZPe.png" title="source: imgur.com" width=35% height=35% /></a>  
+<img src="https://i.imgur.com/y1oVZPe.png" title="source: imgur.com" width=35% height=35% />  
+
 **Diliogent Newbie in Deep Learning**  
 **Alisa Chen**  
 Species: Human  
