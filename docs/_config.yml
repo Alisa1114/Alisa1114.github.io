@@ -21,6 +21,7 @@
 title: Alisa Chen's Website
 tagline: Study in computer science now
 author.name: Alisa Chen
+tags_path: /tags/
 
 # Build settings
 remote_theme: zivong/jekyll-theme-hydure
