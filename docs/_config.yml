@@ -27,6 +27,7 @@ tags_path: /tags/
 remote_theme: zivong/jekyll-theme-hydure
 plugins:
   - jekyll-remote-theme
+future: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
