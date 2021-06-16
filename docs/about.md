@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-<a href="https://i.imgur.com/y1oVZPe.png"><img src="https://i.imgur.com/y1oVZPe.png" title="source: imgur.com" width="35%" height="35%" /></a>
+<a href="/avatar.png"><img src="/avatar.png" title="source: /avatar.png" width="35%" height="35%" /></a>
 
 **Diliogent Newbie in Deep Learning**  
 **Alisa Chen**  
@@ -15,4 +15,5 @@ A newbie in DL since her independent study
 project of computer sciene.  
 Like coding, Touhou Project, and music of 
 Japanese ACG.  
+Email: kafuchino0410@gmail.com  
 My Medium: [Medium](https://alisachen1114.medium.com)

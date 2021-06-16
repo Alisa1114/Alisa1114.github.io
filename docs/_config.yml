@@ -18,21 +18,46 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# Setup
 title: Alisa Chen's Website
-tagline: Study in computer science now
-author.name: Alisa Chen
-tags_path: /tags/
+description: Love computer science and ACG
+url: "https://alisa1114.github.io/" # the base hostname & protocol for your site
+avatar: /avatar.png
+paginate: 5
+cover_image: /cover.jpg
+
+# Gems
+# add google sitemap
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - scripts/
+  - not-pure-poole.gemspec
+
+# Specify the author for blog posts
+author:
+  name: Alisa Chen
+  email: kafuchino0410@gmail.com
 
 # Build settings
-remote_theme: zivong/jekyll-theme-hydure
 plugins:
   - jekyll-remote-theme
-future: true
 
-# add google sitemap
-url: "https://alisa1114.github.io/" # the base hostname & protocol for your site
-plugins:
-  - jekyll-sitemap
+remote_theme: vszhub/not-pure-poole
+future: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

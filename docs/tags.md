@@ -1,7 +1,6 @@
 ---
-layout: page  
-title: Tags  
+layout: archive-taxonomies  
 permalink: /tags/  
-layout: archive  
+title: Tags  
 type: tags  
 ---
