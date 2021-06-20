@@ -13,7 +13,7 @@ in
 C/C++, C#, Python, etc.  
 A newbie in DL since her independent study 
 project of computer sciene.  
-Like coding, Touhou Project, and music of 
+Like coding, Touhou Project, Nakiri Ayame(百鬼 あやめ),and music of 
 Japanese ACG.  
 Email: kafuchino0410@gmail.com  
 My Medium: [Medium](https://alisachen1114.medium.com)
