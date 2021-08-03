@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: "2021-08-03-30-Days-of-ML-1st-day"  
+title: "30-Days-of-ML-1st-day"  
 date: 2021-08-03 13:25:00  
 published: true  
 tags: Kaggle Python machine-learning
