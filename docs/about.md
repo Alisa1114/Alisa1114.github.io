@@ -8,12 +8,8 @@ permalink: /about/
 **Diliogent Newbie in Deep Learning**  
 **Alisa Chen**  
 Species: Human  
-Ability: Mainly capable of program coding 
-in 
-C/C++, C#, Python, etc.  
-A newbie in DL since her independent study 
-project of computer sciene.  
-Like coding, Touhou Project, Nakiri Ayame(百鬼 あやめ),and music of 
-Japanese ACG.  
+Ability: Mainly capable of program coding in C/C++, C#, Python, etc.  
+A newbie in DL since her independent study project of computer sciene.  
+Like coding, Touhou Project, Tokino Sora(ときのそら), and music of Japanese ACG.  
 Email: kafuchino0410@gmail.com  
-My Medium: [Medium](https://alisachen1114.medium.com)
+My Medium: [Medium](https://alisachen1114.medium.com)  
