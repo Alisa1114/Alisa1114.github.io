@@ -6,7 +6,7 @@ published: true
 tags: Kaggle Python machine-learning
 ---  
 
-在今年八月的最後，我總算是完成所有在Kaggle上舉辦的30 Days of ML課程，並順利拿到三份證書。
+今年八月的最後，我總算是完成所有在Kaggle上舉辦的30 Days of ML課程，並順利拿到三份證書。
 
 在這短短不到三十天的課程裡，我學到很多關於機器學習的基本知識，包含Python的基礎語法、怎麼處理拿到手上的資料、使用模型訓練，還有嘗試調整各種參數去提高模型預測的準確率等。
 
