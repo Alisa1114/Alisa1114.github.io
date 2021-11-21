@@ -17,11 +17,11 @@ output: word_document
 
 ### 論文中用到的變數名稱
 
-* \( x_s \) = support image
+* \(x_s\) = support image
 * \( x_q \) = query image
 * \( m_s \) = binary segmentation masks of \( x_s \) 
 * \( m_q \) = binary ground truth
-* \( \hat m_q \) = predicted query mask
+* \(\hat m_q \) = predicted query mask
 * \( F_s \) = feature maps of \( x_s \) output from backbone
 * \( F_q \) = feature maps of \( x_q \) output from backbone
 * \( \tilde m_s \) = \( m_s \) down_sampled 到和 \( F_s \) 有相同大小的結果 
