@@ -6,6 +6,8 @@ tags: deep-learning machine-learning
 output: word_document
 ---
 
+論文來源：[https://arxiv.org/abs/1909.13140](https://arxiv.org/abs/1909.13140)
+
 ### 簡介
 
 這篇論文主要是有關於 few-shot segmentation of foreground object in images，其中描述原作者有提出創新的方法來改善原本 few-shot segmentation 的效果。達成的改善有：（1）改善模型預測出來的 features 能在 foreground（想分割目標）有很高的activations，在其他地方（背景）則是很低。（2）測試時，當分割 support images 時，計算它的 gradient of loss 來改善模型預測的結果。
