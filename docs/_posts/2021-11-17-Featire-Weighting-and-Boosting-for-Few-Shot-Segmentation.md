@@ -27,6 +27,7 @@ output: word_document
 * \( \tilde m_s \) = \( m_s \) down_sampled 到和 \( F_s \) 有相同大小的結果 
 * \( f_s \) = feature vectors of support image
 * 下面是Masked Pooling的計算方式：
+  
 $$ f_s = \frac{1}{\vert \tilde m_s \vert} \sum^{wh}_{i=1} F_{s,i} \ \tilde m_{s,i} $$
 
 $$ \vert \tilde m_s \vert = \sum_i \tilde m_{s,i} $$
