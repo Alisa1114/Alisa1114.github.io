@@ -17,7 +17,7 @@ output: word_document
 
 ## 論文中用到的變數名稱
 
-* \(x_s\\\) = support image
+* \\(x_s\\) = support image
 * \\\( x_q \\\) = query image
 * \\\( m_s \\\) = binary segmentation masks of \\\( x_s \\\) 
 * \\\( m_q \\\) = binary ground truth
