@@ -17,8 +17,6 @@ output: word_document
 
 ### 論文中用到的變數名稱
 
-An inline math: \\\(E=mc^2\\\\\).
-
 * \\\(x_s\\\) = support image
 * \\\( x_q \\\) = query image
 * \\\( m_s \\\) = binary segmentation masks of \\\( x_s \\\) 
