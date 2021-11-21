@@ -2,7 +2,7 @@
 layout: post  
 title:  "Featire Weighting and Boosting for Few-Shot Segmentation 閱讀筆記"  
 date:   2021-11-21 11:12:53 +0800  
-math: true
+katex: true
 tags: deep-learning machine-learning
 output: word_document
 ---
@@ -17,7 +17,7 @@ output: word_document
 
 ### 論文中用到的變數名稱
 
-* \(x_s\) = support image
+* $x_s$ = support image
 * \( x_q \) = query image
 * \( m_s \) = binary segmentation masks of \( x_s \) 
 * \( m_q \) = binary ground truth
