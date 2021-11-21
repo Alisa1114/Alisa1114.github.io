@@ -2,6 +2,7 @@
 layout: post  
 title:  "Featire Weighting and Boosting for Few-Shot Segmentation 閱讀筆記"  
 date:   2021-11-21 11:12:53 +0800  
+math: true
 tags: deep-learning machine-learning
 output: word_document
 ---
