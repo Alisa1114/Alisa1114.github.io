@@ -92,9 +92,9 @@ $$f^{n+1}_s = f^n_s - \nu \frac{\partial \sum^K_{k=1}  L(\hat m^k_s, m^k_s)}{\pa
 
 $$f^1_s = \frac{1}{K} \sum^K_{k=1} f^k_s$$
 
----
+- - -
  
- ## 實作的細節
+##實作的細節
 
  論文中有提到，他們 backbone 使用 VGG-16 或 ResNet-101。只是最後兩層 convolutional layers 被改成 stride 等於 1（原本模型是 2），而且會結合 rate 分別為 2 或 4 的 dilated convolution 來擴大能容納的範圍。這樣的話，backbone 最後輸出比輸入小 \\\( 1/8 \\\) 的 feature maps。而最後要產生預測結果的 2-layer convolution network(Conv)，使用 128 channels的 \\\( 3 \times 3 \\\) convolution 在接上 \\\( ReLU \\\)，還有 2 channels 的 \\\( 1 \times 1 \\\) convolution 輸出預測結果 -- background 和 foreground。另外作者提到他們沒有使用 CRF 當作一個 common post-processing step。
 
@@ -102,7 +102,7 @@ $$f^1_s = \frac{1}{K} \sum^K_{k=1} f^k_s$$
 
  另外作者提到了整體的時間複雜度，\\\( O(Train) = O(CNN) + O(d \ w \ h) \\\)，\\\( O(Test) = O(CNN) + O(N \ d \ w \ h) \\\)，但是因為 \\\( O(d \ w \ h) \\\) 和 \\\( O(N \ d \ w \ h) \\\)通常都遠小於 \\\( O(CNN) \\\)，所以整體時間複雜度差不多為 \\\( O(CNN) \\\)。
 
- ---
+ - - -
  
  ## 我的疑問
  
