@@ -74,7 +74,7 @@ $$p^n = IoU(\hat m_s^n, m_s)$$
 
 $$\hat m_q = \sum^N_{n=1} \hat m^n_q p^n$$
 
-作者在論文中提到，contribution 1 會用在模型訓練和測試階段，而 contribution 2 則是只會在測試階段使用。
+作者在論文中提到，contribution 1 會用在模型訓練ㄒ和測試階段，而 contribution 2 則是只會在測試階段使用。
 
 ---
 
@@ -88,7 +88,7 @@ Contribution 2 用到的 back-propagation 計算的方式改成如下
 
 $$f^{n+1}_s = f^n_s - \nu \frac{\partial \sum^K_{k=1}  L(\hat m^k_s, m^k_s)}{\partial f_s^n}$$
 
-只是原作者說它不會生成 \\\( K \\\) 個獨立的 \\\( \{ \\\)\\\( f^n_s : n = 1, ..., N \\\)\\\( \} \\\)，而是一開始計算 \\\( f^1_s \\\) 計算這 \\\( K \\\) 個 features 的平均
+只是原作者說它不會生成 \\\( K \\\) 個獨立的 \\\(\{ f^n_s : n = 1, ..., N\} \\\)，而是一開始計算 \\\( f^1_s \\\) 為 \\\( K \\\) 個 features 的平均
 
 $$f^1_s = \frac{1}{K} \sum^K_{k=1} f^k_s$$
 
