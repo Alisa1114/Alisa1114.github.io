@@ -3,6 +3,7 @@ layout: post
 title:  "Test Mathjax"  
 date:   2022-09-28 11:12:53  
 math: true
+usemathjax: true
 ---  
 
 inline: \\( E = mc^2 \\)
