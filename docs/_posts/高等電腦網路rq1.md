@@ -6,7 +6,7 @@ tags: Computer_Networks
 math: true
 ---  
 
-參考資料：Computer Networking: A Top-Down Approach，James F. Kurose and Keith W. Ross
+### 參考資料：Computer Networking: A Top-Down Approach，James F. Kurose and Keith W. Ross
 
 ## 1. List the basic components of Internet stack.
 > * network edge
