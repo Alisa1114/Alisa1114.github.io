@@ -59,7 +59,6 @@ plugins:
 remote_theme: vszhub/not-pure-poole
 future: true
 
-markdown: kramdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
